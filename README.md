@@ -13,17 +13,17 @@ The goal is to assist plantation management in mapping tree density and monitori
 ---
 
 ## 📂 Repository Structure
-env/ # Local environment folder (not required to run)
-images/ # Sample output images and visualizations
-labels/ # YOLO labels for training
-results/ # Detection results and evaluation outputs
-runs/detect/ # YOLOv8 training/detection logs
-data.yaml # Dataset configuration file
-requirements.txt # Python dependencies
-split.py # Script to split dataset into train/val sets
-train_log.txt # Training log
-yolov8n.pt # Small YOLOv8 trained weights
-yolov8s.pt # Slightly larger YOLOv8 trained weights
+- env/ # Local environment folder (not required to run)
+- images/ # Sample output images and visualizations
+- labels/ # YOLO labels for training
+- results/ # Detection results and evaluation outputs
+- runs/detect/ # YOLOv8 training/detection logs
+- data.yaml # Dataset configuration file
+- requirements.txt # Python dependencies
+- split.py # Script to split dataset into train/val sets
+- train_log.txt # Training log
+- yolov8n.pt # Small YOLOv8 trained weights
+- yolov8s.pt # Slightly larger YOLOv8 trained weights
 
 ---
 
